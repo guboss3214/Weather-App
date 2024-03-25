@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <div class="container">
+        <div class="block">
+            <div class="user_interface">
+                <input type="text" id="search_city" placeholder="Search city" required>
+                <button id="search_button">Search</button>
+            </div>
+            <h3 class="not_found">City not found</h3>
+            <div class="info">
+                <h2 class="city_name">Kyiv</h2>
+                <span class="material-symbols-outlined custom_icon">
+                    cloud
+                </span>
+                <h2 class="description">something</h2>
+                <div class="weather_info">
+                    <span class="weather_temp">
+                        10 &#8451
+                    </span>
+                    <div class="wrapper">
+                        <div>
+                            <span class="material-symbols-outlined custom_icon">
+                                water
+                            </span>
+                            <span class="humidity">50 %</span>
+                            <h3>humidity</h3>
+                        </div>
+                        <div>
+                            <span class="material-symbols-outlined custom_icon">
+                                air
+                            </span>
+                            <span class="wind">5 km/h</span>
+                            <h3>wind</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    <script src="main.js" defer></script>
+</body>
+</html>
